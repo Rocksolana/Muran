@@ -256,6 +256,14 @@
 .history_title {
     font-size: 20px;
 }
+.products {
+    display: flex;
+    flex-direction: column;
+}
+.products_foto {
+    display: flex;
+    flex-wrap: wrap;
+}
     
 }
 @media(min-width:992px) {
@@ -531,6 +539,7 @@ li:hover .submenu  {
 }
 .contact_title {
     font-size: 50px;
+    padding-top: 15px;
 }
 .contact_text {
     font-size: 24px;
@@ -594,8 +603,34 @@ li:hover .submenu  {
     border:1px solid #372821;
     
 }
-
-
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #372821;
+}
+.products_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.products_foto {
+    flex: 25%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+   
+}
+.products_description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding:15px;
+}
+.products_description:hover {
+    border-bottom:1px solid #372821;
+   
+}
 
 
 /*font-family: 'Montserrat', sans-serif;*/
