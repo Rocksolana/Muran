@@ -264,6 +264,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.foto_item {
+    padding-top: 10px;
+}
     
 }
 @media(min-width:992px) {
@@ -622,6 +625,8 @@ li:hover .submenu  {
    
 }
 .products_description {
+    text-decoration: none;
+    color: #372821;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
