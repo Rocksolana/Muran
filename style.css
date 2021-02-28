@@ -153,8 +153,8 @@
       }
      
     .nav-mobile-menu {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         position: relative;
         top: -92px;
         right: -229px;
@@ -169,16 +169,16 @@
         transition: .25s ease-in-out;
     }
     .nav-mobile-menu span:nth-child(1){
-         top:5px;
-         width: 15px;
+         top:9px;
+         width: 21px;
     }
     .nav-mobile-menu span:nth-child(2){
-        top:9px;
-        width: 10px;
+        top:15px;
+        width: 15px;
     }
     .nav-mobile-menu span:nth-child(3){
-        bottom: 6px;
-        width: 5px;
+        bottom: 9px;
+        width: 8px;
     }
     .navigation {
         position: fixed;
