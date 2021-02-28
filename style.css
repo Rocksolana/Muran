@@ -311,6 +311,12 @@
 .history_title {
     font-size: 30px;
 }
+.seit_navigation {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 }
 @media(min-width:1200px) {
@@ -568,11 +574,12 @@ li:hover .submenu  {
 .contact_item {
     font-size: 22px;
     font-weight: bold; 
+    padding-top: 10px;
     
 }
 .phone_item,.address_item {
     font-family: 'Montserrat', sans-serif;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .credits {
@@ -635,6 +642,17 @@ li:hover .submenu  {
 .products_description:hover {
     border-bottom:1px solid #372821;
    
+}
+.seit_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigation_item {
+    padding: 15px 15px 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 
