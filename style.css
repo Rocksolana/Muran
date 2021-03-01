@@ -683,6 +683,9 @@ li:hover .submenu  {
     font-size: 16px;
     
 }
+.seit_navigation > .navigation_item > a:hover {
+    border-bottom: 1px solid black;
+}
 .slider-block,.main_slider {
     display: flex;
     justify-content: center;
