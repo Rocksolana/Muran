@@ -201,7 +201,7 @@
     .nav-mobile-menu.active-menu span:nth-child(2){
        top:50%;
        transform: rotate(-45deg);
-       width: 15px;
+       width: 20px;
     }
     .nav-mobile-menu.active-menu span:nth-child(3){
        transform: scale(0);
@@ -654,6 +654,27 @@ li:hover .submenu  {
     font-family: 'Montserrat', sans-serif;
     
 }
+.slider-block,.main_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-block > div {
+    color:black;
+    width:300px;
+    height: 270px; 
+}
 
+.slick-prev:before, .slick-next:before{
+    color: #372821;
+}
 
-/*font-family: 'Montserrat', sans-serif;*/
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;
+}   
+.slick-prev {
+    left: -37px;
+}
+.slick-next{
+    right:0px;
+}
